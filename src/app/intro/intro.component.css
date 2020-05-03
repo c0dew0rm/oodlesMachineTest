@@ -4,12 +4,18 @@
     line-height: 4.2rem;
     color: white;
 }
-#main-container {
+
+.main-container {
+    padding: 0%;
+}
+
+.header-container {
     background-image: url('../../assets/images/backgrounds/Rectangle11.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 1.5rem;
 }
+
 #bitcoinImage {
     padding: 0%;
     height: 81%;
