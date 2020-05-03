@@ -7,6 +7,7 @@ import { IntroComponent } from './intro/intro.component';
 import { HeaderComponent } from './intro/header/header.component';
 import { ServicesComponent } from './services/services.component';
 import { TrendsComponent } from './trends/trends.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TrendsComponent } from './trends/trends.component';
     IntroComponent,
     HeaderComponent,
     ServicesComponent,
-    TrendsComponent
+    TrendsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

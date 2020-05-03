@@ -13,6 +13,10 @@
     padding: 1.5rem;
 }
 
+.trends-container, .services-container, .footer-container, .main-container {
+    padding: 0%;
+}
+
 #bitcoinImage {
     padding: 0%;
     height: 81%;

@@ -20,3 +20,9 @@
 #trends-container a.carousel-control-prev, #trends-container a.carousel-control-next {
     width: 5%;
 }
+
+@media screen and (max-width: 800px) {
+    #trends-container {
+      display: none;
+    } 
+}
