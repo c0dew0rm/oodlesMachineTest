@@ -1,0 +1,22 @@
+#trends-container {
+    background-image: url("../../assets/images/backgrounds/4683.png");
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    padding: 8rem;
+}
+
+#trends-container .slide-box div {
+    padding: 3rem;
+}
+
+#trends-container .slide-box div p {
+    padding: 0 2rem;
+}
+
+#trends-container .slide-box div img {
+    padding: 1rem;
+}
+
+#trends-container a.carousel-control-prev, #trends-container a.carousel-control-next {
+    width: 5%;
+}
