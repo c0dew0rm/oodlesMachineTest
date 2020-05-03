@@ -1,0 +1,92 @@
+#our-services-container {
+    margin-top: -6.5rem;
+}
+
+#our-services-container .bitcoin-icons {
+    max-width: 90%;
+    margin: 0 auto; 
+}
+
+#our-services-container .bitcoin-icons div img:nth-child(1) {
+    position: relative;
+    z-index: 1;
+}
+
+#our-services-container .bitcoin-icons div img:nth-child(2) {
+    margin-left: -20px;
+}
+
+#our-services-container .services-features-container {
+    padding: 2rem;
+}
+
+#our-services-container .services-grid {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s,-webkit-transform .2s;
+}
+
+#our-services-container .services-grid:hover {
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+}
+
+#our-services-container .services-row-one {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#our-services-container .services-row-one div {
+    padding: 2rem;
+}
+
+#our-services-container .services-row-one p {
+    margin: 1rem;
+}
+
+#our-services-container .services-row-two {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#our-services-container .services-row-two div {
+    padding: 2rem;
+}
+
+#our-services-container .services-row-two p {
+    margin: 1rem;
+}
+
+#our-services-container .popup-services-container {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding-top: 5rem;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#our-services-container .popup-services-container .popup-services-box {
+    max-width: 50%;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid silver;
+    border-radius: 0.5rem;
+    background-color: wheat;
+    color: black;
+}
+
+#our-services-container .popup-services-container .popup-services-box .remove-popup {
+    float: right;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: red;
+}
+
+#our-services-container .popup-services-container .popup-services-box h2 {
+    padding-bottom: 1rem;
+}
