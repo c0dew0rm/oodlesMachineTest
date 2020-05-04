@@ -43,24 +43,32 @@
         </div>
 
         <div class="text-center">
-            <button id="view-all-services" class="btn btn-outline-primary pl-5 pr-5">View all Services</button>
+            <button id="view-all-services" class="btn btn-outline-primary pl-5 pr-5" data-toggle="modal" data-target="#myModal">View all Services</button>
         </div>
     </div>
 
     <!-- Popup Services Features Container -->
-    <div class="popup-services-container">
-        <div class="popup-services-box">
-            <div class="remove-popup lead">X</div>
-
-            <h3 class="text-center">Our All Services</h3>
-            <ul>
-                <li>Smart Contracts Development</li>
-                <li>Exchanges</li>
-                <li>Blockchain Development</li>
-                <li>Hyperledger</li>
-                <li>Private Blockchain Development</li>
-                <li>Wallet</li>
-            </ul>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">Our Services</div>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Smart Contracts Development</li>
+                        <li>Exchanges</li>
+                        <li>Blockchain Development</li>
+                        <li>Hyperledger</li>
+                        <li>Private Blockchain Development</li>
+                        <li>Wallet</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
